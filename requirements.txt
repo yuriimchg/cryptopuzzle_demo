@@ -6,10 +6,12 @@ chardet==3.0.4
 Click==7.0
 cycler==0.10.0
 Flask==1.1.1
+Flask-Ext==0.1
 Flask-Migrate==2.5.2
 flask-restplus==0.12.1
+Flask-Script==2.0.6
 Flask-SQLAlchemy==2.4.0
-heroku==0.1.4
+gunicorn==19.9.0
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10.1
@@ -24,8 +26,8 @@ pandas==0.25.0
 psycopg2==2.8.3
 pyparsing==2.4.0
 pyrsistent==0.15.3
+python-dateutil==2.8.0
 python-editor==1.0.4
-python-dateutil==1.5
 pytz==2019.1
 requests==2.22.0
 six==1.12.0
