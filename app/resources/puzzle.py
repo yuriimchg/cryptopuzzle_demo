@@ -39,6 +39,7 @@ class PuzzleResource(Resource):
             ]
         })
 
+
 class UpdateResource(Resource):
 
     def get(self):
