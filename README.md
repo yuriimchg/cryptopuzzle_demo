@@ -19,7 +19,7 @@ source venv/bin/activate
 3. Setup a database:
 ```
 createuser demo_user --createdb --createrole --pwprompt
-createdb demo_database --tablespace="fractals" --tablespace="demo_fractals" --owner=demo_user --username=demo_user 
+createdb demo_database --owner=demo_user --username=demo_user 
 ```
 4. Initialize the app:
 ```
