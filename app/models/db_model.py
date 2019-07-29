@@ -27,7 +27,7 @@ class Puzzle(db.Model):
     lat6 = db.Column(db.DECIMAL, nullable=False)
 
 
-class HardcodedFractal(db.Model):
+class DemoFractal(db.Model):
     __tablename__ = 'demo_fractals'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
